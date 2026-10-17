@@ -1,27 +1,53 @@
-# BBD Chorus - Juno-style chorus for the Korg minilogue xd (modfx)
+# BBD Chorus — Juno-Style Chorus for Korg minilogue xd
 
-Verified to compile with the logue SDK (arm-none-eabi-gcc 13.2).
+Emulating the warm character of the classic Roland Juno chorus, BBD Chorus combines subtle saturation, noise, and stereo modulation to recreate the imperfect, organic feel of vintage bucket-brigade chorus circuits.
 
-## Controls (the xd modfx slot only exposes Time and Depth)
-- Time  : mode select in three zones -> I | II | I+II
-- Depth : wet level (dry signal always passes, like the Juno)
+Inspired by the Juno-60 and Juno-106, it brings that familiar wide, lush sound to the Korg minilogue xd, with an adjustable chorus amount for greater control over the effect.
 
-## Build
-    git clone https://github.com/korginc/logue-sdk.git
-    cd logue-sdk && git submodule update --init
-    cp -r bbd-chorus logue-sdk/platform/minilogue-xd/
-    cd logue-sdk/platform/minilogue-xd/bbd-chorus
-    # with a local toolchain (brew install --cask gcc-arm-embedded, or apt gcc-arm-none-eabi):
-    make GCC_BIN_PATH=$(dirname $(which arm-none-eabi-gcc))
-    make install GCC_BIN_PATH=$(dirname $(which arm-none-eabi-gcc))
-or use the SDK's Docker flow (docker/run_cmd.sh build minilogue-xd/bbd-chorus).
+## Controls
 
-Output: bbd_chorus.mnlgxdunit
+**Time — Chorus Mode**
 
-## Load
-logue-cli load -u bbd_chorus.mnlgxdunit -s 0   (or Korg Sound Librarian)
+Select between three chorus modes inspired by the original Juno chorus:
 
-## Notes
-- The delay line is in SDRAM (`__sdram`); the modfx SRAM region is only 6K.
-- Tune the constants at the top of bbd_chorus.cpp (rates, delay times,
-  filter corners, noise) against a real Juno or reference plugin.
+- **Chorus I** — A slow, soft, warm stereo swirl that adds subtle width and depth to pads, leads, and sustained sounds.
+- **Chorus II** — A faster, deeper, and more energetic modulation that creates a more intense, shimmering effect.
+- **Chorus I + II** — Combines both modes for a thicker, more pronounced modulation with a denser, more complex swirling character.
+
+**Depth — Chorus Amount**
+
+Controls the amount of chorus applied to the signal, from subtle movement to a lush, heavily modulated sound. Unlike the original Juno chorus, BBD Chorus lets you dial in the effect to suit your patch.
+
+## Building
+
+Requires the [Korg logue SDK](https://github.com/korginc/logue-sdk) and the ARM embedded GCC toolchain.
+
+```bash
+git clone https://github.com/korginc/logue-sdk.git
+cd logue-sdk
+git submodule update --init
+
+cp -r /path/to/bbd-chorus platform/minilogue-xd/
+cd platform/minilogue-xd/bbd-chorus
+
+make GCC_BIN_PATH=$(dirname $(which arm-none-eabi-gcc))
+make install GCC_BIN_PATH=$(dirname $(which arm-none-eabi-gcc))
+```
+
+Alternatively, use the SDK's Docker build flow.
+
+The output is `bbd_chorus.mnlgxdunit`.
+
+## Loading
+
+Load the `.mnlgxdunit` file onto your minilogue xd using `logue-cli` or Korg Sound Librarian.
+
+```bash
+logue-cli load -u bbd_chorus.mnlgxdunit -s 0
+```
+
+## Technical Notes
+
+- The delay buffer is allocated in SDRAM using `__sdram`, since the modfx SRAM region is limited to 6 KB.
+- The effect is designed around the minilogue xd's Mod FX interface, which exposes the Time and Depth parameters.
+- The chorus characteristics can be adjusted in `bbd_chorus.cpp`, including modulation rates, delay times, filter cutoff frequencies, and noise level.
