@@ -1,0 +1,12 @@
+{
+  "header" : {
+    "platform" : "minilogue-xd",
+    "module" : "modfx",
+    "api" : "1.1-0",
+    "dev_id" : 0,
+    "prg_id" : 0,
+    "version" : "1.0-0",
+    "name" : "BBD Chorus",
+    "num_param" : 0
+  }
+}
