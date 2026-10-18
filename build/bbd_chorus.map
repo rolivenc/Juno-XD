@@ -1,0 +1,355 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o (cosf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o (floorf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o (sinf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o) (fabsf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+/Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o) (copysignf)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x0000000020017800 0x0000000000001800 xr
+SDRAM            0x00000000c0400000 0x0000000000020000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.hooks          0x0000000020017800       0x40
+                0x0000000020017800                . = ALIGN (0x4)
+                0x0000000020017800                _hooks_start = .
+ *(.hooks)
+ .hooks         0x0000000020017800       0x40 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+                0x0000000020017840                . = ALIGN (0x4)
+                0x0000000020017840                _hooks_end = .
+
+.init_array     0x0000000020017840        0x0
+                0x0000000020017840                . = ALIGN (0x4)
+                0x0000000020017840                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x0000000020017840                . = ALIGN (0x4)
+                0x0000000020017840                PROVIDE (__init_array_end, .)
+
+.text           0x0000000020017840     0x129c
+                0x0000000020017840                . = ALIGN (0x4)
+                0x0000000020017840                _text_start = .
+ *(.text)
+ .text          0x0000000020017840       0x5c /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+                0x0000000020017842                _hook_resume
+                0x0000000020017846                _hook_suspend
+                0x000000002001784a                _entry
+ .text          0x000000002001789c      0x538 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                0x0000000020017a44                _hook_init
+                0x0000000020017b2c                _hook_process
+                0x0000000020017d60                _hook_param
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+ .text          0x0000000020017dd4        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+ *(.text.*)
+ .text.cosf     0x0000000020017dd4       0x90 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+                0x0000000020017dd4                cosf
+ .text.floorf   0x0000000020017e64       0x90 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+                0x0000000020017e64                floorf
+ .text.sinf     0x0000000020017ef4       0x94 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                0x0000000020017ef4                sinf
+ .text.__ieee754_rem_pio2f
+                0x0000000020017f88      0x298 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000020017f88                __ieee754_rem_pio2f
+ .text.__kernel_cosf
+                0x0000000020018220      0x104 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+                0x0000000020018220                __kernel_cosf
+ .text.__kernel_rem_pio2f
+                0x0000000020018324      0x630 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000020018324                __kernel_rem_pio2f
+ .text.__kernel_sinf
+                0x0000000020018954       0x90 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+                0x0000000020018954                __kernel_sinf
+ .text.fabsf    0x00000000200189e4       0x10 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+                0x00000000200189e4                fabsf
+ .text.scalbnf  0x00000000200189f4       0xd0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+                0x00000000200189f4                scalbnf
+ .text.copysignf
+                0x0000000020018ac4       0x18 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+                0x0000000020018ac4                copysignf
+ *(.glue_7)
+ .glue_7        0x0000000020018adc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000020018adc        0x0 linker stubs
+ *(.gcc*)
+                0x0000000020018adc                . = ALIGN (0x4)
+                0x0000000020018adc                _text_end = .
+
+.vfp11_veneer   0x0000000020018adc        0x0
+ .vfp11_veneer  0x0000000020018adc        0x0 linker stubs
+
+.v4_bx          0x0000000020018adc        0x0
+ .v4_bx         0x0000000020018adc        0x0 linker stubs
+
+.iplt           0x0000000020018adc        0x0
+ .iplt          0x0000000020018adc        0x0 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+
+.rodata         0x0000000020018adc      0x3f4
+                0x0000000020018adc                . = ALIGN (0x4)
+                0x0000000020018adc                _rodata_start = .
+ *(.rodata)
+ .rodata        0x0000000020018adc       0x24 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+ *(.rodata.*)
+ .rodata.npio2_hw
+                0x0000000020018b00       0x80 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0000000020018b80      0x318 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.init_jk
+                0x0000000020018e98        0xc /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x0000000020018ea4       0x2c /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000020018ed0                . = ALIGN (0x4)
+                0x0000000020018ed0                _rodata_end = .
+
+.rel.dyn        0x0000000020018ed0        0x0
+ .rel.iplt      0x0000000020018ed0        0x0 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+
+.data           0x0000000020018ed0       0xb8
+                0x0000000020018ed0                . = ALIGN (0x8)
+                0x0000000020018ed0                _data_start = .
+ *(.data)
+ .data          0x0000000020018ed0        0x0 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .data          0x0000000020018ed0       0xb4 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+ *fill*         0x0000000020018f84        0x4 
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+ .data          0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+ *(.data.*)
+                0x0000000020018f88                . = ALIGN (0x8)
+                0x0000000020018f88                _data_end = .
+
+.igot.plt       0x0000000020018f88        0x0
+ .igot.plt      0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+
+.bss            0x0000000020018f88       0x28
+                0x0000000020018f88                . = ALIGN (0x4)
+                0x0000000020018f88                _bss_start = .
+ *(.bss)
+ .bss           0x0000000020018f88        0x0 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .bss           0x0000000020018f88       0x25 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+ .bss           0x0000000020018fad        0x0 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+ *(.bss.*)
+ *(COMMON)
+                0x0000000020018fb0                . = ALIGN (0x4)
+ *fill*         0x0000000020018fad        0x3 
+                0x0000000020018fb0                _bss_end = .
+
+.ARM.extab      0x0000000020018fb0        0x0
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                __extab_start = .
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                __extab_end = .
+
+.ARM.exidx      0x0000000020018fb0        0x0
+                0x0000000020018fb0                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000020018fb0                __exidx_end = .
+
+.eh_frame_hdr   0x0000000020018fb0        0x0
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                _eh_frame_hdr_start = .
+ *(.eh_frame_hdr)
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                _eh_frame_hdr_end = .
+
+.eh_frame       0x0000000020018fb0        0x0
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                _eh_frame_start = .
+ *(.eh_frame)
+                0x0000000020018fb0                . = ALIGN (0x4)
+                0x0000000020018fb0                _eh_frame_end = .
+
+.sdram          0x00000000c0400000     0x1000
+                0x00000000c0400000                . = ALIGN (0x4)
+                0x00000000c0400000                _usr_sdram_start = .
+ *(.sdram*)
+ .sdram         0x00000000c0400000     0x1000 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                0x00000000c0401000                . = ALIGN (0x4)
+                0x00000000c0401000                _usr_sdram_end = .
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/ld/main_api.syms
+                0x000000000807b000                k_fx_api_version = 0x807b000
+                0x000000000807b004                k_fx_api_platform = 0x807b004
+                0x000000000807b100                sqrtm2log_lut_f = 0x807b100
+                0x000000000807b504                tanpi_lut_f = 0x807b504
+                0x000000000807b908                log_lut_f = 0x807b908
+                0x000000000807bd0c                bitres_lut_f = 0x807bd0c
+                0x000000000807bf10                wt_sine_lut_f = 0x807bf10
+                0x000000000807c114                schetzen_lut_f = 0x807c114
+                0x000000000807c318                cubicsat_lut_f = 0x807c318
+                0x000000000807c51c                pow2_lut_f = 0x807c51c
+                0x000000000807c920                _fx_mcu_hash = 0x807c920
+                0x000000000807c92c                _fx_rand = 0x807c92c
+                0x000000000807c964                _fx_white = 0x807c964
+                0x000000000807ca88                _fx_get_bpm = 0x807ca88
+                0x000000000807ca8c                _fx_get_bpmf = 0x807ca8c
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a
+START GROUP
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/libgcc.a
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libg.a
+LOAD /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a
+END GROUP
+OUTPUT(/Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/bbd_chorus.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x1229
+ .debug_info    0x0000000000000000      0x4d2 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_info    0x00000000000004d2      0xd57 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.debug_abbrev   0x0000000000000000      0x547
+ .debug_abbrev  0x0000000000000000      0x1c8 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_abbrev  0x00000000000001c8      0x37f /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.debug_loc      0x0000000000000000      0x75a
+ .debug_loc     0x0000000000000000       0xb9 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_loc     0x00000000000000b9      0x6a1 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_aranges
+                0x0000000000000020       0x20 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.debug_line     0x0000000000000000      0x5eb
+ .debug_line    0x0000000000000000      0x284 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_line    0x0000000000000284      0x367 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.debug_str      0x0000000000000000      0x78b
+ .debug_str     0x0000000000000000      0x403 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+                                        0x476 (size before relaxing)
+ .debug_str     0x0000000000000403      0x388 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                                        0x552 (size before relaxing)
+
+.comment        0x0000000000000000       0x6e
+ .comment       0x0000000000000000       0x6e /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000006e       0x6f /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+.ARM.attributes
+                0x0000000000000000       0x39
+ .ARM.attributes
+                0x0000000000000000       0x39 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .ARM.attributes
+                0x0000000000000039       0x39 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+ .ARM.attributes
+                0x0000000000000072       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x00000000000000a6       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000000000da       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x000000000000010e       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000142       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x0000000000000176       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000000000001aa       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x00000000000001de       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000000000000212       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x0000000000000246       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+
+.debug_frame    0x0000000000000000      0x3d4
+ .debug_frame   0x0000000000000000       0x88 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+ .debug_frame   0x0000000000000088      0x168 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+ .debug_frame   0x00000000000001f0       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x0000000000000224       0x20 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x0000000000000244       0x34 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x0000000000000278       0x3c /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000000002b4       0x20 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x00000000000002d4       0x5c /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x0000000000000330       0x20 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x0000000000000350       0x20 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x0000000000000370       0x44 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00000000000003b4       0x20 /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+
+.debug_ranges   0x0000000000000000      0x120
+ .debug_ranges  0x0000000000000000      0x120 /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+
+Cross Reference Table
+
+Symbol                                            File
+__ieee754_rem_pio2f                               /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+__init_array_end                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+__init_array_start                                /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+__kernel_cosf                                     /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_cos.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+__kernel_rem_pio2f                                /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_sinf                                     /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_sin.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+_bss_end                                          /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_bss_start                                        /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_entry                                            /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_hook_init                                        /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_hook_param                                       /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_hook_process                                     /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_hook_resume                                      /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+_hook_suspend                                     /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/_unit.o
+copysignf                                         /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_copysign.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+cosf                                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_cos.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+fabsf                                             /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_fabs.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-ef_rem_pio2.o)
+floorf                                            /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_floor.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
+scalbnf                                           /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_scalbn.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-kf_rem_pio2.o)
+sinf                                              /Users/rolivencia/Documents/korg/logue-sdk/tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libm.a(lib_a-sf_sin.o)
+                                                  /Users/rolivencia/Documents/korg/logue-sdk/platform/minilogue-xd/Juno-XD/build/obj/bbd_chorus.o
