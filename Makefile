@@ -178,7 +178,7 @@ $(COBJS) : $(OBJDIR)/%.o : %.c Makefile
 	@echo Compiling $(<F)
 	@$(CC) -c $(CFLAGS) -I. $(INCDIR) $< -o $@
 
-$(CXXOBJS) : $(OBJDIR)/%.o : %.cpp Makefile
+$(CXXOBJS) : $(OBJDIR)/%.o : %.cpp Makefile $(PROJECTDIR)/bbd_chorus_dsp.h
 	@echo Compiling $(<F)
 	@$(CXXC) -c $(CXXFLAGS) -I. $(INCDIR) $< -o $@
 
