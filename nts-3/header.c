@@ -19,8 +19,8 @@ const __unit_header genericfx_unit_header_t unit_header = {
     .api = UNIT_API_VERSION,
     .dev_id = 0x0,      // See https://github.com/korginc/logue-sdk/blob/master/developer_ids.md
     .unit_id = 0x0U,
-    .version = 0x00010001U,   // 1.0.1, matches manifest.json
-    .name = "Juno XD",
+    .version = 0x00010002U,   // 1.0.2, matches manifest.json
+    .name = "Juno Chorus",
     .num_params = 8,
 
     .params = {
